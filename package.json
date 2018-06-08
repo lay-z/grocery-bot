@@ -1,0 +1,29 @@
+{
+  "name": "groceries-bot",
+  "version": "1.0.0",
+  "description": "A bot to help you order groceries for pre-saved recipes, as well as specific groceries",
+  "main": "index.js",
+  "scripts": {
+    "use": "firebase use",
+    "login": "firebase login",
+    "deploy": "firebase deploy",
+    "lint": "eslint .",
+    "logs": "firebase functions:log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyav Shah & Rikin Shah",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.1.3",
+    "firebase-admin": "^5.12.1",
+    "firebase-functions": "^1.0.4",
+    "firebase-tools": "^3.18.6"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "eslint": "^4.19.1"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}
